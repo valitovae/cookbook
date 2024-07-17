@@ -93,10 +93,16 @@
     </div>
 
     <!-- VK comments -->
-    <div id="vk_comments"></div>
-    <script type="text/javascript">
-        VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-    </script>
+    <div class="comments">
+        <div id="vk_comments"></div>
+        <script type="text/javascript">
+            VK.Widgets.Comments("vk_comments", {
+                width: 800,
+                limit: 10,
+                attach: "*"
+            });
+        </script>
+    </div>
 
     <footer>
         © 2024 Разработано Валитовой Э. Г.

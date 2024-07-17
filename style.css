@@ -110,3 +110,8 @@ footer {
     background-color: #ffdfbd;
     padding: 10px;
 }
+
+.comments {
+    display: flex;
+    align-items: center;
+}
